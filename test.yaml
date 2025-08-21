@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: $IMAGE_URI
+    image: 084886114428.dkr.ecr.us-east-1.amazonaws.com/ecreks:$IMAGE_TAG
     ports:
     - containerPort: 80
