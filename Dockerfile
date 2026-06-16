@@ -1,4 +1,4 @@
-FROM public.ecr.aws/nginx/nginx:1.28-alpine3.21-slim
+FROM public.ecr.aws/nginx/nginx:1.30.1-alpine3.23-otel
 
 EXPOSE 80
 
